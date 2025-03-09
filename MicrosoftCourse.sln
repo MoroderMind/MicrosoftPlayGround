@@ -2,6 +2,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controller-example", "Controller-example\Controller-example.csproj", "{A7E27950-5C6A-86AA-4F34-4DDC94C38F0B}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaStore", "PizzaStore\PizzaStore.csproj", "{95D2EE5A-5FFF-28A9-305E-A61CE10909EF}"
 EndProject
 Global
@@ -10,6 +12,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7E27950-5C6A-86AA-4F34-4DDC94C38F0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7E27950-5C6A-86AA-4F34-4DDC94C38F0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7E27950-5C6A-86AA-4F34-4DDC94C38F0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7E27950-5C6A-86AA-4F34-4DDC94C38F0B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{95D2EE5A-5FFF-28A9-305E-A61CE10909EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{95D2EE5A-5FFF-28A9-305E-A61CE10909EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95D2EE5A-5FFF-28A9-305E-A61CE10909EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -19,6 +25,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {2542A26D-029C-4E07-B34A-8D6BB0F15E35}
+		SolutionGuid = {1499F3E0-E1CF-4718-8134-331223B7E536}
 	EndGlobalSection
 EndGlobal
